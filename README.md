@@ -68,7 +68,7 @@ fun inlineCompiling() {
 }
 ```
 <br> <br>
-O melhor de tudo é que inline functions indexam outras funções lambda dentro delas durante a compilação, portanto qualquer HOF dentro de uma inline function que ** não esteja marcada com o modificador noinline** também será compilada dinamicamente no código.
+O melhor de tudo é que inline functions indexam outras funções lambda dentro delas durante a compilação, portanto qualquer HOF dentro de uma inline function que **não esteja marcada com o modificador noinline** também será compilada dinamicamente no código.
 
 <br>
 <br>
